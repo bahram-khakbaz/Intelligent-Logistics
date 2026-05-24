@@ -17,3 +17,6 @@ prometheus_data/
 *.log
 .idea/
 .vscode/
+/osrm-data/
+*.pbf
+*.osrm*
