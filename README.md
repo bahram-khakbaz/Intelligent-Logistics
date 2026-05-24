@@ -114,7 +114,7 @@ def run_command(command, description):
     
     while True:
         output = process.stdout.readline()
-        if output == '' and process.poll() is not null:
+        if output == '' and process.poll() is not None:
             break
         if output:
             print(output.strip())
